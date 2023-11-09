@@ -1,0 +1,56 @@
+
+
+
+
+                                     RESTAURANT LISTING APP (FRONT-END)
+                             .............................................................
+
+
+
+                  1.Create a new Project folder RESTAURANT-LISTING
+                  2.Inside it create react-project - npx create-react-app RESTAURANT-LISTING-APP
+                  3.Clear the unwanted codes and files
+                  4.Install The 3rd party libraries
+                       1.React-bootstrap/mdb-bootstrap/material-ui
+                       2.font awesome
+                       3.Google fonts
+                       4.bootswatch
+                  5.Create Components                        
+                      1.Header folder
+                            .Header.jsx
+                            .Header.css
+                      2.AllRest folder (Main)
+                               AllRest.jsx
+                               AllRest.css      
+                      3.Footer folder
+                               Footer.jsx
+                               Footer.css         
+
+                  6. Create json-server
+                  7. API Fetching
+                  8. AXIOS - npm i axios
+                          Introduction to Axios: Axios, which is a popular library is mainly used to send asynchronous HTTP requests to REST endpoints. This library is very useful to perform CRUD operations.
+                          This popular library is used to communicate with the backend. Axios supports the Promise API, native to JS ES6.
+                          Using Axios we make API requests in our application. Once the request is made we get the data in Return, and then we use this data in our project.             
+
+                  9. GET All RESTAURANT data (API CALL) - In AllRest Component        
+                                 ->import Axios
+                                 ->Create a function for Fetching data
+                                 ->function call Using -UseEffect
+                                 ->Create a state for holding the data
+
+                  10.Path Setup
+                      localhost:3000 - AllRest Component
+                      localhost:3000/view/1 - ViewRest Component
+
+                      Routing - react-router-dom-library
+
+                      ->BrowserRouter - To render full application
+                      ->Routes - Used to hold multiple Routes
+                      ->Route - Used for single Component Path
+
+                      Install - npm i react-router-dom  
+
+
+                   11. Link 
+                           ->Used to redirect from one page to another               
